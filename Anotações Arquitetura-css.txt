@@ -1,0 +1,34 @@
+Metodologia BEM:
+
+BEM é a sigla para Block Element Modifier (Bloco Elemento Modificador) que consiste em um padrão de nomeação 
+de classes para os elementos da marcação HTML baseado na função estrutural do elemento e não na sua 
+função de apresentação.
+
+bloco
+bloco__elemento
+bloco--modificador
+bloco__elemento--modificador
+
+Por exemplo, se você tem um Bloco .c-menu, um Elemento dele pode ser .c-menu__item ou .c-menu__link.
+Seguindo o exemplo, poderia haver um modificador para o menu .c-menu--dark para um versão escura; uma 
+versão do menu fixa com .c-menu--fixed ou; para links desabilitados, .c-menu__link--disabled.
+
+
+Design Atomic: 
+
+O Atomic Design é uma metodologia desenvolvida por Brad Frost para 
+a criação de design systems. Ela é composta por cinco estágios, trabalhando juntos 
+para criar interfaces de maneira deliberada e hierárquica. 
+Os cinco estágios do Atomic Design são: átomos, moléculas, organismos, modelos e paginas.
+    1. Átomos são os blocos básicos de construção da matéria. Aplicados às interfaces da web, 
+        os átomos são nossas tags HTML/componentes básicos, uma imagem de perfil, um label de 
+        formulário, um campo de texto ou um botão.
+    2.Moléculas: são grupos relativamente simples de elementos da interface que funcionam 
+        juntos como uma unidade. Por exemplo, uma imagem de perfil, um label, um card e botão 
+        podem se combinar em um card de informação do usuário.
+    3.Organismos são componentes de interface relativamente complexos compostos por grupos de 
+        moléculas e/ou átomos e/ou outros organismos. Um exemplo uma lista, composta de cards com 
+        imagem de perfil e nome.
+    4.Modelos colocam componentes em um layout e demonstram a estrutura de conteúdo subjacente do design.
+    5.Páginas aplicam conteúdo real aos modelos e articulam variações para demonstrar a interface 
+        do usuário final e testar a resiliência do sistema de design.

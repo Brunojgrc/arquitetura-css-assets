@@ -1,0 +1,8 @@
+.banner__imagem {
+    height: calc(100vh-72px);
+    width: 100%;
+}
+
+/* a imagem passará a ocupar 100% do tamanho da janela do navegador, 
+mas removendo o tamanho do cabeçalho, fazendo com que uma rolagem mais breve 
+já mostre a seção "Sobre" */
