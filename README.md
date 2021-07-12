@@ -1,1 +1,1 @@
-Arquitetura-CSS. #Alura
+Arquitetura-CSS:aplicando conceito de Block, Element, Modifier (BEM) e Design Atomic.#Alura

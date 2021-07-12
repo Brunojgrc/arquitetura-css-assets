@@ -1,0 +1,17 @@
+.receita__botao {
+    background-color: #8D0606;
+    border: none;
+    border-radius: 5px;
+    color: #FDFDFD;
+    padding: 0.5rem;
+    transition: all 1s ease-in-out ;  
+}
+
+.receita__botao:hover {
+    background-color: #620404 ;
+    cursor: pointer;
+      
+}
+
+/* transition: all .1s ease-in-out, 
+indicando uma animação de transição que deverá ocorrer devagar. */
