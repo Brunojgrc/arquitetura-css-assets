@@ -1,3 +1,8 @@
+Teclas de atalho:
+
+Alt + setas: troca a posicao (ordem) dos conteudos selecionados
+Crtl + :(dois pontos): cria o comentário de /**/ automaticamente
+
 Metodologia BEM:
 
 BEM é a sigla para Block Element Modifier (Bloco Elemento Modificador) que consiste em um padrão de nomeação 

@@ -2,8 +2,27 @@
     background-color: #E5E5E5;
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+
 }
 /* display: flex para que os elementos fiquem alinhados um ao lado do outro;
 flex-wrap: wrap para quebrarmos automaticamente os elementos em linhas conforme a tela é diminuida;
 padding: 5rem 0 0 5rem para definirmos o espaçamento interno. */
+
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+}
